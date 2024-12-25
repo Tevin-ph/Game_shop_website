@@ -1,0 +1,109 @@
+.cart-page {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.your-cart{
+  font-size: 42px; 
+  font-weight: 700; 
+  padding: 20px 0; 
+  text-align: center; 
+  color: #39FF14; 
+  margin-bottom: 40px; 
+  text-transform: uppercase; 
+  letter-spacing: 2px; 
+  text-decoration: underline;
+}
+.empty-cart {
+    text-align: center;    
+    font-size: 50px;       
+    color: red;            
+    margin-top: 50px;
+    margin-bottom: 50px;       
+    font-weight: bold;     
+    padding: 20px;         
+  }
+.cart-page p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #777;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.cart-item-details {
+  flex-grow: 1;
+  max-width: 600px;
+}
+
+.cart-item-details h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+}
+
+.cart-item-details p {
+  font-size: 1.5rem;
+  color: #555;
+}
+
+.cart-page a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.cart-page a:hover {
+  background-color: #0056b3;
+}
+
+.cart-page a:active {
+  background-color: #003f80;
+}
+
+.remove-from-cart {
+    width: 155px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;     display: flex;
+    align-items: center;     justify-content: center;     gap: 7px;
+    color: white;
+    font-weight: 500;
+    position: relative;
+    background-color: #E60012;     box-shadow: 0 20px 30px -7px rgba(27, 27, 27, 0.219);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    overflow: hidden;
+    margin-top: 10px;     margin-left: 10px; 
+  }
+  
+    .remove-from-cart:hover {
+    background-color: #C40000;     transform: scale(1.05);   }

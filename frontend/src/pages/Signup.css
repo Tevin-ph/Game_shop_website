@@ -1,0 +1,92 @@
+
+
+/* Updated form-container styling */
+.form-container {
+    background-color: #393939;
+    padding: 40px 60px;  /* Increased padding for a bigger form */
+    border-radius: 12px;  /* Slightly larger border radius */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);  /* More prominent shadow */
+    width: 100%;
+    max-width: 480px;  /* Larger width */
+    text-align: center;
+    margin-left: 700px;
+    margin-top: 130px;  /* Shifted down slightly */
+}
+
+/* Header styling (increased font size and vibrant color) */
+h1 {
+    font-size: 2.2em;  /* Larger font size */
+    color: #76B900;    /* Vibrant green */
+    margin-bottom: 20px;  /* More space below header */
+    font-weight: bold;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);  /* Light shadow to make the text pop */
+}
+
+/* Paragraph styling (bigger, more vibrant text) */
+p {
+    color: #bdbdbd;
+    margin-bottom: 30px;  /* More space below paragraph */
+    font-size: 1.1em;  /* Slightly bigger font size */
+}
+
+/* Label styling (bigger and brighter text) */
+label {
+    font-size: 1em;  /* Larger font size */
+    color: #e0e0e0;
+    display: block;
+    margin-bottom: 12px;  /* More space between label and input */
+    text-align: left;
+}
+
+/* Input field styling (larger input size with smoother focus effect) */
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 18px 10px;  /* Increased padding for larger input fields */
+    margin-bottom: 25px;  /* More space between inputs */
+    border: 1px solid #555;
+    border-radius: 8px;  /* Larger border radius */
+    font-size: 1.1em;  /* Larger font size */
+    background-color: #4a4a4a;
+    color: #fff;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Focus state for the input fields (more vibrant on focus) */
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus {
+    color: #76B900;
+    outline: none;
+    background-color: #565656;
+}
+
+/* Button styles (larger button with vibrant hover effect) */
+button.btn-signup {
+    width: 100%;
+    padding: 16px;  /* Larger padding */
+    font-size: 1.2em;  /* Larger font size */
+    color: #ffffff;
+    background-color: #76B900;
+    border: none;
+    border-radius: 8px;  /* Larger border radius */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Button hover effect (more prominent scale effect) */
+button.btn-signup:hover {
+    background-color: #45a049;
+    transform: scale(1.1);  /* More pronounced scale effect */
+}
+
+/* Styles for the 'Already have an account?' section */
+.log-in a {
+    color: #4CAF50;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    font-size: 1.1em;  /* Larger font size */
+}
+
+/* Hover effect for the log-in link */
+.log-in a:hover {
+    color: #45a049;
+    text-decoration: underline;
+}

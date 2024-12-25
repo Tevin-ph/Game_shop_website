@@ -1,0 +1,23 @@
+/* General styles for the navigation */
+nav {
+    background-color: #000000; /* Black background */
+    padding: 10px 20px; /* Add padding around the links */
+    display: flex; /* Flexbox to arrange items horizontally */
+    gap: 100px; /* Add space between links */
+    justify-content: center; /* Center the items */
+    align-items: center; /* Vertically center the links */
+}
+
+/* Style for the div elements inside NavLink */
+nav div {
+    color: #39FF14; /* Bright green text color */
+    font-size: 20px; /* Larger text */
+    font-weight: bold; /* Make text bold */
+    transition: color 0.3s, transform 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Hover effect: change color and scale the text */
+nav div:hover {
+    color: #32CD32; /* Slightly darker green on hover */
+    transform: scale(1.1); /* Slightly enlarge the text */
+}

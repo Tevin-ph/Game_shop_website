@@ -1,0 +1,154 @@
+/* General styling for the container */
+.card-container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+/* Styling for the heading */
+h2 {
+    font-size: 42px; /* Increase font size for better prominence */
+    font-weight: 700; /* Make the text extra bold */
+    padding: 20px 0; /* Add vertical padding for spacing */
+    text-align: center; /* Center align the heading */
+    color: #39FF14; /* Bright green color for a fresh look */
+    margin-bottom: 40px; /* Add margin below for separation from content */
+    text-transform: uppercase; /* Capitalize all letters for emphasis */
+    letter-spacing: 2px; /* Add letter spacing for a cleaner, modern look */
+    text-decoration: underline;
+  }
+  
+
+/* Styling for the individual cards */
+.card {
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Slightly enlarge the card on hover */
+}
+
+/* Image styling */
+.card-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Card details styling */
+.card-details {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+}
+
+/* Styling for the price section */
+.card-price {
+  padding: 10px;
+  text-align: center;
+}
+
+.price {
+  font-size: 22px;
+  color: #39FF14; /* Green color for the price */
+  font-weight: bold;
+}
+
+.add-to-cart{
+    padding-top: 10px;
+}
+
+.add-to-cart-xb {
+  width: 155px;
+  height: 50px;
+  border: none;
+  border-radius: 25px; /* Rounded corners for a softer look */
+  display: flex;
+  align-items: center; /* Vertically center the content */
+  justify-content: center; /* Horizontally center the content */
+  gap: 7px;
+  color: white;
+  font-weight: 500;
+  position: relative;
+  background-color: #00ff00; /* Green background */
+  box-shadow: 0 20px 30px -7px rgba(27, 27, 27, 0.219);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  overflow: hidden;
+  margin-top: 10px; /* Ensure space between the card price and button */
+  margin-left: 10px; 
+}
+
+/* Add a hover effect to the button */
+.add-to-cart-xb:hover {
+  background-color: #45a049; /* Darker green on hover */
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+ 
+.add-to-cart-ps {
+    width: 155px;
+    height: 50px;
+    border: none;
+    border-radius: 25px; /* Rounded corners for a softer look */
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+    gap: 7px;
+    color: white;
+    font-weight: 500;
+    position: relative;
+    background-color: #5C6BC0; /* Green background */
+    box-shadow: 0 20px 30px -7px rgba(27, 27, 27, 0.219);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    overflow: hidden;
+    margin-top: 10px; /* Ensure space between the card price and button */
+    margin-left: 10px; 
+  }
+  
+  /* Add a hover effect to the button */
+  .add-to-cart-ps:hover {
+    background-color: #3C4CCF; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+  }
+
+  .add-to-cart-ni {
+    width: 155px;
+    height: 50px;
+    border: none;
+    border-radius: 25px; /* Rounded corners for a softer look */
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+    gap: 7px;
+    color: white;
+    font-weight: 500;
+    position: relative;
+    background-color: #E60012; /* Green background */
+    box-shadow: 0 20px 30px -7px rgba(27, 27, 27, 0.219);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    overflow: hidden;
+    margin-top: 10px; /* Ensure space between the card price and button */
+    margin-left: 10px; 
+  }
+  
+  /* Add a hover effect to the button */
+  .add-to-cart-ni:hover {
+    background-color: #C40000; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+  }

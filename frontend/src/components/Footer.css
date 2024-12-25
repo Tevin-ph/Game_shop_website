@@ -1,0 +1,46 @@
+/* General footer styling */
+footer {
+    background-color: #000000; /* Set the entire footer background to black */
+    color: white; /* Ensure the text in footer is white by default */
+    padding: 0; /* Remove padding around the footer */
+    margin: 0; /* Remove any margin from the footer */
+}
+
+/* Foot Panel 2: The bottom half of the footer */
+.foot-panel2 {
+    background-color: #000000; /* Keep the bottom panel black */
+    min-height: 400px; /* Set a minimum height for the bottom section */
+    display: flex;
+    justify-content: space-between;
+    border-top: 5px solid white; /* White top border for contrast */
+    padding: 20px 40px; /* Padding for inner content */
+    box-sizing: border-box; /* Ensure padding is included in the height */
+}
+
+/* Link styling inside the footer */
+ul a {
+    display: block;
+    font-size: 24px; /* Increase the font size of links */
+    color: white; /* Set text color to white */
+    margin-top: 10px; /* Space out the links */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Make the text bold */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Change color on hover */
+ul a:hover {
+    color: #32CD32; /* Change color to bright green (#32CD32) on hover */
+}
+
+/* Paragraph styling inside the footer (changing header color to bright green) */
+ul p {
+    font-weight: bold;
+    font-size: 30px;
+    color: #32CD32; /* Change paragraph color to bright green */
+}
+
+/* Rightmost section adjustments */
+#rightmost {
+    padding-right: 40px;
+}
